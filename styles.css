@@ -240,6 +240,24 @@ header.nav.scrolled {
 .feature h4 { font-family: var(--font-body); font-weight:800; font-size:1.08rem; margin-bottom:8px; }
 .feature p { font-size:.92rem; color: var(--text-dim); }
 
+/* ---------- Referanslar ---------- */
+.ref-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 340px)); gap:22px; justify-content:center; }
+.ref-card {
+  display:flex; align-items:center; gap:18px; text-decoration:none; color:inherit;
+  padding: 22px 24px; border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border:1px solid var(--stroke); transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+.ref-card:hover { transform: translateY(-6px); border-color: var(--stroke-strong); box-shadow: var(--shadow); }
+.ref-logo { flex:none; width:74px; height:74px; border-radius:50%; background:#fff;
+  display:grid; place-items:center; padding:11px; box-shadow: 0 6px 18px -6px rgba(0,0,0,.5); border:1px solid var(--stroke-strong); }
+.ref-logo img { width:100%; height:100%; object-fit:contain; }
+.ref-info { min-width:0; }
+.ref-info h3 { font-size:1.2rem; margin-bottom:4px; }
+.ref-tag { display:block; font-size:.78rem; color:var(--text-mute); margin-bottom:9px; }
+.ref-link { display:inline-flex; align-items:center; gap:6px; font-size:.86rem; font-weight:700; color:var(--gold-2); }
+.ref-link svg { width:14px; height:14px; }
+
 /* ---------- Fiyatlandırma ---------- */
 .pricing-grid { display:grid; grid-template-columns: repeat(2,1fr); gap:24px; max-width: 860px; margin-inline:auto; }
 .plan {

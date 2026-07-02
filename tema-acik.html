@@ -20,7 +20,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 <style>
-/* === ACIK TEMA (siyah yazi) === */
 :root{ --ink:#f1eee6; --ink-2:#e9e5db; --panel:#ffffff; --panel-2:#faf7f0;
  --stroke:rgba(160,130,30,.22); --stroke-strong:rgba(160,130,30,.5);
  --text:#1b1a17; --text-dim:#4b4740; --text-mute:#8a857b; --gold-2:#b8901f; --gold-1:#c9a227; }
@@ -34,7 +33,7 @@ header.nav.scrolled{ background:rgba(246,243,236,.85) !important; }
 .gold-text{ background-image:linear-gradient(135deg,#c9a227,#8f6f16) !important;
   -webkit-background-clip:text !important; background-clip:text !important;
   -webkit-text-fill-color:transparent !important; color:transparent !important; }
-.card,.plan,.price-card,.contact-card,.job-card{ background:linear-gradient(180deg,#ffffff,#faf7f0) !important; box-shadow:0 20px 50px -26px rgba(120,95,20,.28) !important; }
+.card,.plan,.price-card,.contact-card,.job-card,.ref-card{ background:linear-gradient(180deg,#ffffff,#faf7f0) !important; box-shadow:0 20px 50px -26px rgba(120,95,20,.28) !important; }
 .feature,.faq{ background:#ffffff !important; }
 .btn-gold{ color:#241a06 !important; } .pr-col.sell .val{ color:#d1662f !important; }
 </style>
@@ -51,6 +50,7 @@ header.nav.scrolled{ background:rgba(246,243,236,.85) !important; }
     <nav class="nav-links" id="navLinks">
       <a href="#hizmetler">Hizmetler</a>
       <a href="#ozellikler">Özellikler</a>
+      <a href="#referanslar">Referanslar</a>
       <a href="#fiyatlandirma">Fiyatlandırma</a>
       <a href="#sss">S.S.S.</a>
       <a href="kariyer.html">Kariyer</a>
@@ -187,6 +187,29 @@ header.nav.scrolled{ background:rgba(246,243,236,.85) !important; }
         <h4>Tamamen Size Özel</h4>
         <p>İstediğiniz renk tonu, yazı fontu ve logo ile markanıza özel tasarlanır.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REFERANSLAR ===================== -->
+<section id="referanslar">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Referanslar</span>
+      <h2>Bize Güvenen <span class="gold-text">İşletmeler</span></h2>
+      <p>Milyemim altyapısıyla kendi markasına özel canlı fiyat ekranını kullanan işletmelerden bazıları.</p>
+    </div>
+    <div class="ref-grid">
+      <a class="ref-card reveal" href="https://dadaskuyumculuk.com" target="_blank" rel="noopener">
+        <div class="ref-logo"><img src="ref-dadas.png" alt="Dadaş Kuyumculuk logo" /></div>
+        <div class="ref-info">
+          <h3>Dadaş Kuyumculuk</h3>
+          <span class="ref-tag">Canlı Fiyat Ekranı · Web &amp; Mobil</span>
+          <span class="ref-link">dadaskuyumculuk.com
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
