@@ -259,7 +259,7 @@ header.nav.scrolled {
 .ref-link svg { width:14px; height:14px; }
 
 /* ---------- Fiyatlandırma ---------- */
-.pricing-grid { display:grid; grid-template-columns: repeat(2,1fr); gap:24px; max-width: 860px; margin-inline:auto; }
+.pricing-grid { display:grid; grid-template-columns: repeat(3,1fr); gap:22px; max-width: 1080px; margin-inline:auto; }
 .plan {
   position:relative; border-radius: var(--radius-lg); padding: 38px 34px;
   background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -267,7 +267,7 @@ header.nav.scrolled {
 }
 .plan:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
 .plan.featured { border-color: var(--stroke-strong); box-shadow: var(--shadow-gold); }
-.plan.featured::before { content:"En Popüler"; position:absolute; top:20px; right:22px; font-size:.7rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#1a1204; background:var(--gold-grad); padding:5px 12px; border-radius:100px; }
+.plan.featured::before { content:"En Avantajlı"; position:absolute; top:20px; right:22px; font-size:.7rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#1a1204; background:var(--gold-grad); padding:5px 12px; border-radius:100px; }
 .plan .p-ico { width:54px; height:54px; border-radius:14px; display:grid; place-items:center; background:var(--gold-grad-soft); border:1px solid var(--stroke-strong); margin-bottom:20px; }
 .plan .p-ico svg{ width:26px;height:26px;color:var(--gold-1);}
 .plan h3 { font-size:1.5rem; margin-bottom:6px; }
@@ -390,6 +390,7 @@ footer.site {
   .hero-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 120px; }
   .cards { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; max-width: 460px; }
   .contact-grid { grid-template-columns: 1fr; }
   .nav-links, .nav-cta .btn-desktop { display: none; }
   .burger { display: flex; }
