@@ -274,6 +274,7 @@ header.nav.scrolled {
 .plan .p-sub { color:var(--text-mute); font-size:.9rem; margin-bottom:20px; }
 .plan .p-price { font-family:var(--font-head); font-size:2.6rem; font-weight:700; margin-bottom:4px; }
 .plan .p-price small { font-size:1rem; color:var(--text-mute); font-weight:400; }
+.plan .p-price .p-old { font-size:1.3rem; color:var(--text-mute); font-weight:400; text-decoration:line-through; margin-right:6px; }
 .plan .p-note { color:var(--text-mute); font-size:.82rem; margin-bottom:24px; }
 .plan ul.p-feats { display:flex; flex-direction:column; gap:12px; margin-bottom:28px; }
 .plan ul.p-feats li { display:flex; align-items:flex-start; gap:10px; font-size:.94rem; color:var(--text-dim); }
